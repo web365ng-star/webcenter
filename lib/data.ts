@@ -21,7 +21,7 @@ export const site = {
   currency: "₦",
   logoUrl: "/img/webcenter-logo.png",
   favicon: "/favicon.png",
-  clientareaUrl: "https://webcenter.ng/host",
+  clientareaUrl: "https://panel.webcenter.ng",
   social: {
     facebook: "#",
     twitter: "#",
@@ -139,7 +139,7 @@ export const pricingPlans: Record<string, PricingPlan[]> = {
       ],
       currency: "₦",
       billing_cycle: "monthly",
-      order_url: "https://webcenter.ng/host/store/shared-hosting-plans/basic-package",
+      order_url: "https://panel.webcenter.ng/store/shared-hosting-plans/basic-package",
     },
     {
       id: "sh2",
@@ -158,7 +158,7 @@ export const pricingPlans: Record<string, PricingPlan[]> = {
       ],
       currency: "₦",
       billing_cycle: "monthly",
-      order_url: "https://webcenter.ng/host/store/shared-hosting-plans/standard-package",
+      order_url: "https://panel.webcenter.ng/store/shared-hosting-plans/standard-package",
     },
     {
       id: "sh3",
@@ -177,7 +177,7 @@ export const pricingPlans: Record<string, PricingPlan[]> = {
       ],
       currency: "₦",
       billing_cycle: "monthly",
-      order_url: "https://webcenter.ng/host/store/shared-hosting-plans/stellar-business",
+      order_url: "https://panel.webcenter.ng/store/shared-hosting-plans/stellar-business",
     },
     {
       id: "sh4",
@@ -196,7 +196,7 @@ export const pricingPlans: Record<string, PricingPlan[]> = {
       ],
       currency: "₦",
       billing_cycle: "monthly",
-      order_url: "https://webcenter.ng/host/store/shared-hosting-plans/unlimited-hosting",
+      order_url: "https://panel.webcenter.ng/store/shared-hosting-plans/unlimited-hosting",
     },
   ],
   vps: [
@@ -211,7 +211,7 @@ export const pricingPlans: Record<string, PricingPlan[]> = {
       pid: 4,
       currency: "₦",
       billing_cycle: "monthly",
-      order_url: "https://webcenter.ng/host/cart.php?a=add&pid=4",
+      order_url: "https://panel.webcenter.ng/cart.php?a=add&pid=4",
     },
     {
       id: "vps2",
@@ -224,7 +224,7 @@ export const pricingPlans: Record<string, PricingPlan[]> = {
       pid: 5,
       currency: "₦",
       billing_cycle: "monthly",
-      order_url: "https://webcenter.ng/host/cart.php?a=add&pid=5",
+      order_url: "https://panel.webcenter.ng/cart.php?a=add&pid=5",
     },
     {
       id: "vps3",
@@ -237,7 +237,7 @@ export const pricingPlans: Record<string, PricingPlan[]> = {
       pid: 6,
       currency: "₦",
       billing_cycle: "monthly",
-      order_url: "https://webcenter.ng/host/cart.php?a=add&pid=6",
+      order_url: "https://panel.webcenter.ng/cart.php?a=add&pid=6",
     },
   ],
   dedicated: [
@@ -252,7 +252,7 @@ export const pricingPlans: Record<string, PricingPlan[]> = {
       pid: 7,
       currency: "₦",
       billing_cycle: "monthly",
-      order_url: "https://webcenter.ng/host/cart.php?a=add&pid=7",
+      order_url: "https://panel.webcenter.ng/cart.php?a=add&pid=7",
     },
     {
       id: "ded2",
@@ -265,7 +265,7 @@ export const pricingPlans: Record<string, PricingPlan[]> = {
       pid: 8,
       currency: "₦",
       billing_cycle: "monthly",
-      order_url: "https://webcenter.ng/host/cart.php?a=add&pid=8",
+      order_url: "https://panel.webcenter.ng/cart.php?a=add&pid=8",
     },
     {
       id: "ded3",
@@ -278,7 +278,7 @@ export const pricingPlans: Record<string, PricingPlan[]> = {
       pid: 9,
       currency: "₦",
       billing_cycle: "monthly",
-      order_url: "https://webcenter.ng/host/cart.php?a=add&pid=9",
+      order_url: "https://panel.webcenter.ng/cart.php?a=add&pid=9",
     },
   ],
   reseller: [
@@ -293,7 +293,7 @@ export const pricingPlans: Record<string, PricingPlan[]> = {
       pid: 10,
       currency: "₦",
       billing_cycle: "monthly",
-      order_url: "https://webcenter.ng/host/cart.php?a=add&pid=10",
+      order_url: "https://panel.webcenter.ng/cart.php?a=add&pid=10",
     },
     {
       id: "res2",
@@ -306,7 +306,7 @@ export const pricingPlans: Record<string, PricingPlan[]> = {
       pid: 11,
       currency: "₦",
       billing_cycle: "monthly",
-      order_url: "https://webcenter.ng/host/cart.php?a=add&pid=11",
+      order_url: "https://panel.webcenter.ng/cart.php?a=add&pid=11",
     },
     {
       id: "res3",
@@ -319,7 +319,7 @@ export const pricingPlans: Record<string, PricingPlan[]> = {
       pid: 12,
       currency: "₦",
       billing_cycle: "monthly",
-      order_url: "https://webcenter.ng/host/cart.php?a=add&pid=12",
+      order_url: "https://panel.webcenter.ng/cart.php?a=add&pid=12",
     },
   ],
 };
@@ -774,7 +774,7 @@ export const pageSections: Record<string, Section[]> = {
       subtitle: "We are here to help with hosting, domains, servers, websites and support.",
       image: HERO_IMAGE,
       button_text: "Get Support",
-      button_link: "https://webcenter.ng/host/submitticket.php",
+      button_link: "https://panel.webcenter.ng/submitticket.php",
       sort_order: 10,
     },
     {
@@ -784,7 +784,7 @@ export const pageSections: Record<string, Section[]> = {
       title: "Get in Touch",
       subtitle: "Reach our team through phone, WhatsApp or email.",
       content:
-        '<div class="row"><div class="col-md-4"><h3>Phone</h3><p>+234 704 423 4511</p></div><div class="col-md-4"><h3>WhatsApp</h3><p>+234 810 462 0701</p></div><div class="col-md-4"><h3>Client Area</h3><p><a href="https://webcenter.ng/host">Open client area</a></p></div></div>',
+        '<div class="row"><div class="col-md-4"><h3>Phone</h3><p>+234 704 423 4511</p></div><div class="col-md-4"><h3>WhatsApp</h3><p>+234 810 462 0701</p></div><div class="col-md-4"><h3>Client Area</h3><p><a href="https://panel.webcenter.ng">Open client area</a></p></div></div>',
       sort_order: 20,
     },
     {
@@ -794,7 +794,7 @@ export const pageSections: Record<string, Section[]> = {
       title: "Need urgent hosting support?",
       subtitle: "Open a support ticket or chat with our team on WhatsApp.",
       button_text: "Open Client Area",
-      button_link: "https://webcenter.ng/host",
+      button_link: "https://panel.webcenter.ng",
       sort_order: 90,
     },
   ],
