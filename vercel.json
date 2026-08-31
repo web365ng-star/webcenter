@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/host", "destination": "https://origin.webcenter.ng/host" },
+    { "source": "/host/:path*", "destination": "https://origin.webcenter.ng/host/:path*" }
+  ]
+}
